@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<link rel="stylesheet" href="style.css">
+		<meta charset="UTF-8">
+		<link rel="shortcut icon" href="image/rama.png" type="image/x-icon">
+		<title>ARTA'VATAR</title>
+	</head>
+	<body class="rama">
+		<header>
+			<center>
+				<marquee behavior="alternate" direction="left"><img src="image/rama.png"   alt="logo"  width="75px" height="75"></marquee>
+			</center>
+
+			
+         <nav>
+         	<ul>
+         		<li class="menu-accueil"><a href="index.html">ACCUEIL</a></li>
+         		<li class="bio"><a href="balise.html">MA BIOGRAPHIE</a>
+         			<ul class="submenu">
+         				<li><a href="#"> L’aspect physique</a></li>
+         				<li><a href="#">L'aspect psychologique</a></li>
+         				<li><a href="#">L'aspect social</a></li>
+         			</ul>
+         		</li>
+         		<li class="menu-contact"><a href="contact.html">CONTACT</a></li>
+         	</ul>
+         </nav>
+         <div id="balise">
+	
+		<h5> <u>  <center><font size="5">contact</font></center></u></h5>
+	    
+	    	<div class="contact">
+	    	<form class="form" name="forme" method="POST" action="teste.php">
+                   
+	    	
+	         <label for="civilte"></label>
+	          <select name="civilite" id="civilite">
+            <option value="">Sélectionner une civilité</option>
+           
+            <option value="Monsieur">Monsieur</option>
+           <option value="Madame">Madame</option>
+           <option value="Mademoiselle">Mademoiselle</option>
+           </select><br><br>
+            <p>
+            <!-- <input type="checkbox" name="confirmation" id="confirmation" class="input"> -->
+            <!-- <label for="confirmation">SITUATION</label> -->
+            <h2>Situation</h2>       
+        <p><center>
+            
+			<label>Etudiant
+				<input type="radio" name"abonnement"/>
+			</label>
+			<label>profesion
+					<input type="radio" name"abonnement"/>
+				</label>
+				<label>autres
+						<input type="radio" name"abonnement"/>
+					</label>
+            
+           
+            
+            </center>
+        </p>
+			<label for="nom"></label>
+			<input type="text"  name="nom" placeholder="Votre Nom" id="nom" class="input" value=""><br>
+			<span id="nom1"></span>
+			
+			<br>
+			<label for="prenom"></label><br>
+			<input type="text"  name="prenom" placeholder="Votre Prenom" id="prenom" class="input" value="" >
+			<span id="prenom1"></span>
+
+			<label for="age"></label><br><br>
+			<input type="number" name="age"  placeholder="Votre Age" id="age"  class="input" >
+			<span id="age1"></span>
+
+			<label for="email"> </label><br><br>
+			<input type="email" name="email" placeholder="Votre Email" id="email"  class="input" value="" >
+			<span id="email1"></span>
+			
+			<label for="password"></label><br><br>
+			<input type="password" id="password" class="input" name="password" placeholder="votre Password" value="">
+			<label for="password_confirm"></label><br><br>
+
+			<input type="password" id="password_confirm" class="input" name="password_confirm" placeholder="votre Password_confirm" value=""><br><br>
+				
+			<textarea  cols="20" rows="8" name="message" placeholder="Message" id="message"></textarea>
+			<span id="message1"></span>
+			<br><br>
+
+			<input type="submit" value="Valider" id="val"  onclick="return valider()">
+			<input type="reset" value="Annuler" id="an">
+         
+		</form>
+		</div>
+		</fieldset>
+	</div>
+
+
+<footer>
+			<center>
+				<hr>
+					<a href="https://www.facebook.com/artaa.aidara"  target="blank" title="Visitez le site d'ACS"><img src="image/face.png" width="50"> </a>
+					<a href="https://twitter.com/arta199302" target="blank" title="Visitez le site d'ACS"><img src="image/twitter.png" width="50" ></a> Copyright 2018
+			
+			</center>
+		</footer>
+	
+	
+</body>
+</html>
+<!--<script> 1em etape
+		var nom=document.getElementById('nom');
+		var prenom=document.getElementById('prenom');
+		var email=document.getElementById('email');
+		var age=document.getElementById('age');
+		var message=document.getElementById('message');
+		
+		function valider()
+		{
+			if (nom.value==""){
+				alert("Veuillez ecrire votre nom");}
+				
+				if (prenom.value== ""){
+					alert("Veuillez ecrire votre prenom");}
+					
+					if (email.value== ""){
+						alert("Veuillez ecrire votre email");
+					} 
+					
+					if(age.value==""){
+						alert("Veuillez ecrire votre age");}
+						
+
+						if(message.value== ""){
+							alert("Veuillez ecrire votre message");
+						} 
+	  
+	}
+</script>-->
+
+<!--<script>
+
+		
+		var select = document.getElementById("civilite" );
+	    var radio = document.getElementById("civilite" );
+		var nom=document.getElementById('nom');
+		var prenom=document.getElementById('prenom');
+		var email=document.getElementById('email');
+		var age=document.getElementById('age');
+		var message=document.getElementById('message');
+		var con='remplir les cases vides\n';
+
+		function valider()
+		{
+		if(select.value==""){con+='civilite\n';}if(select.value=="")
+				
+				
+              if (nom.value==""){
+				 con+='nom\n';
+
+				
+				}
+			if (prenom.value==""){
+				 con+='prenom\n';
+				 
+				}
+
+			if (email.value==""){con+='email\n';
+			
+				 }
+		   if (password.value==""){con+='password\n';
+			
+				 }
+			if (password_confirm.value==""){con+='password_confirm\n';
+			
+				 }	 
+
+			if (age.value==""){con+='age\n';
+			
+				}
+
+			if (message.value==""){con+='message\n';
+			
+				
+				}
+			
+			if(select.value==""||nom.value==""||prenom.value==""||email.value==""||age.value==""||message.value==""||password.value==""||password_confirm.value==""){
+
+
+			alert(con);}
+			else{
+				alert("bravo cases remplir");
+			}
+	  
+	}
+	
+	
+</script>-->
+
+
+<script>
+
+	//obtenir tout le texte saisi
+	    var nom=document.getElementById("nom");
+	    var prenom=document.getElementById("prenom");
+	    var email=document.getElementById("email");
+		var age=document.getElementById("age");
+	
+		function valider() {
+			if (forme.nom.value=="") {
+				document.getElementById("nom1").innerHTML="champs obligatoire";
+				document.getElementById("nom").style.backgroundColor="red";
+				return false;
+
+			}
+			if (forme.prenom.value=="") {
+				document.getElementById("prenom1").innerHTML="champs obligatoire";
+				document.getElementById("prenom").style.backgroundColor="red";
+				return false;
+			}
+			if (forme.email.value=="") {
+				document.getElementById("email1").innerHTML="champs obligatoire";
+				document.getElementById("email").style.backgroundColor="red";
+				return false;
+			}
+			if (forme.age.value=="") {
+				document.getElementById("age1").innerHTML="champs obligatoire";
+				document.getElementById("age").style.backgroundColor="red";
+				return false;
+			}
+		}
+
+	</script>

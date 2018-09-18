@@ -1,0 +1,220 @@
+h4
+{
+	color: darkblue;
+	font-style: italic;
+}
+p
+{
+	text-align: justify;
+	font-size: 1em;
+	color: #041214;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-right: 2%;
+	padding-left: 2%;
+}
+}
+section
+{
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-right: 2%;
+	padding-left: 2%;
+}
+.rr
+{
+	text-align: justify;
+	font-size: 1,5em;
+	color:#041214;
+}
+.aa
+{
+	text-align: justify;
+	font-size: 1,5em;
+	color:#041214;
+}
+.bb
+{
+	text-align: justify;
+	font-size: 1,5em;
+	color:#041214;
+}
+h5
+{
+	color: darkblue;
+	font-style: italic;
+}
+
+h1
+{
+	color: gold;
+	font-style: italic;
+}
+body
+{
+	margin: 0px;
+	padding: 0px;
+	font-family:'source code pro', Calibri, serif;
+}
+nav
+{
+	width: 100%;
+	background-color: #424558;
+
+}
+nav >ul
+{
+	margin: 0px;
+	padding: 0px;
+}
+nav ul:after
+{
+content: "";
+display: block;
+clear: both;
+}
+nav > ul > li
+{
+	float: left;
+	position: relative;
+}
+nav li
+{
+	list-style-type: none;
+}
+.submenu
+{
+	display: none;
+}
+nav a
+{
+	display: inline-block;
+	text-decoration: none;
+}
+nav > ul >li >a
+{
+	padding: 20px 30px;
+	color: #FFF;
+}
+nav  li:hover .submenu
+{
+	display: inline-block;
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	padding: 0px;
+	z-index: 1000;
+}
+.submenu li a
+{
+	padding: 15px 30px;
+	font-size: 20px;
+	color: #041214;
+	width: 270px;
+}
+.submenu li
+{
+	border-bottom: 1px solid #CCC;	
+}
+
+.arta
+{
+	background-image: url;
+	background-size: 100%;
+	background-attachment: fixed;
+}
+.rama
+{
+	background-image: url;
+	background-size: 50%;
+	
+}
+table
+{
+	text-decoration: none;
+	color:gold;
+}
+a:hover
+{
+	background-color: red;
+	font-size: 15px;
+}
+
+.form .input
+{
+	width: 30%;
+	height: 40px;
+	border: 3px solid;
+
+}
+.form .label
+{
+	
+}
+select
+{
+	width: 30%;
+	height: 42px;
+	border: 3px solid;
+}
+.form textarea
+{
+	width: 30%;
+	height: 40px;
+	max-height: 200px;
+	resize: vertical;
+	min-width: 200px;
+	max-width: 500px;
+	border: 2px solid;
+
+}
+.form
+{
+	margin: 10px;
+	padding: 10px;
+}
+p
+{
+	/*text-align: center;*/
+	margin-top: 1px;
+}
+#message
+{
+	border: 3px solid;
+}
+
+#val
+{
+	width: 70px;
+	height: 20px;
+    border: 1px solid blue;
+}
+#an
+{
+	width: 70px;
+	height: 20px;
+    border: 1px solid red;
+}
+.contact
+{
+	width: 80%;
+	border: solid 1px #333;
+	position: relative;
+	left: 10%;
+	margin: 10px;
+	text-align: center;
+}
+input radio
+{
+	text-align: center;
+	left: 10%;
+}
+
+h5
+{
+	margin-top: 10px;
+}
+.val_error
+{
+	color: #FF1F1F.
+}
